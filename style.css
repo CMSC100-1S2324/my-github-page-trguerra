@@ -1,0 +1,212 @@
+/*Tom Cristian R. Guerra*/
+/*CMSC 100 EF-2L*/
+
+*{ /*sets the margin for the whole page*/
+    margin: 0;
+}
+
+html{ /*this block modifies the background.*/
+    background-image: url(assets/bg-image.jpg);
+    background-repeat: repeat;
+    background-size: 450px;
+}
+
+
+
+/*header & header items styles*/
+header{
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    gap: 10px 0px; /*gap between logo and name*/
+    
+    background-color:rgba(55, 31, 41, 0.793);
+}
+
+#header_logo{
+    width: 70px;
+    height: 70px;
+    border-style: solid;
+    border-width: 1px;
+}
+
+.logo{
+    border-radius: 50%;
+}
+
+#header_name{
+    font-family: 'Lucida Sans', monospace;
+    font-size: 26px;
+    margin: 0px;
+    color:white;
+} /* end of header items */
+
+
+
+/* navigation bar and items */
+#navigation_bar{
+    display: flex;
+    gap: 0px 15px;
+    justify-content: center;
+    background-color:rgba(60, 21, 37, 0.923);
+}
+
+.nav_item{
+   font-family: 'CourierNew', monospace;
+   font-size: 15px;
+   text-align: center;
+   text-decoration: none;
+   color:white;
+   /* width: auto; */
+   /* text-wrap: nowrap; */
+   padding: 12px;
+}
+
+.nav_item:hover{
+    box-shadow: inset 0 0 100px 100px rgba(255, 255, 255, 0.1);
+} /* end of navigation bar items */
+
+
+
+/* featured photo section */
+#featured{
+    display: flex;
+    flex-direction: column;
+    margin: 15px;
+    align-items: center;
+    padding: 20px;
+    gap: 20px 0px;
+
+    background-color:rgba(55, 31, 41, 0.793);
+}
+
+#featured_header{
+    font-family: 'Lucida Sans', monospace;
+    font-size: 20px;
+    font-weight: lighter;
+    color:white;
+    letter-spacing: 10px;
+}
+
+.featured_photo{
+    max-width: 600px;
+    border-style: solid;
+    border-width: 1px;
+    filter:drop-shadow(0 0 0.75rem rgba(55, 31, 41, 0.793));
+}
+
+
+/* projects */
+#project_section{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    align-items: center;
+    max-width: fit-content;
+    padding: 14px;
+    
+    border: solid;
+    border-width: 6px;
+    border-color: rgba(60, 21, 37, 0.923);;
+    
+    background-color:rgba(229, 242, 212, 0.716);
+}
+
+#project_header{
+    font-family: 'Lucida Sans', monospace;
+    color:rgb(60, 12, 32);
+    font-weight: bold;
+    font-size: 40px;
+    /* margin-bottom: 10px;    */
+}
+
+#project_list{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0px 15px;
+    justify-content: center;
+    padding: 15px;
+}
+
+.project{
+    display: flex;
+    flex-direction: column;
+    max-width: min-content;
+    gap: 10px 0px;
+}
+
+.project_image{
+    max-height: 200px;
+    max-width: max-content;
+    border-style: solid;
+    border-width: 1px;
+    filter:drop-shadow(0 0 0.75rem rgba(55, 31, 41, 0.793));
+}
+
+.project_desc{
+    text-align: justify;
+    font-family: 'CourierNew', monospace;
+    font-size: 12px;
+    color:rgb(60, 12, 32);
+}
+
+
+
+/* skills items */
+.sk_ab_section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 15px;
+}
+
+.skills_autobio{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+    max-width: 700px;
+    padding: 15px;
+    gap: 15px;
+
+    font-family: 'CourierNew', monospace;
+    color:white;
+    background-color:rgba(60, 21, 37, 0.923);
+}
+
+#autobiography{
+    text-indent: 5%;
+    text-align: justify;
+} /* end of skills/autobiography section */
+
+
+
+/* footer items */
+footer{
+    display: flex;
+    gap: 0px 20px;
+    align-items: center;
+    padding: 10px;
+    
+    background-color:rgba(60, 21, 37, 0.923);
+}
+
+#footer_logo{
+    border-style: solid;
+    border-width: 1px;
+    width: 100px;
+    height: 100px;
+}
+
+.footer_contents{
+    font-family: 'Courier New', monospace;
+    font-size: 12px;
+    color:white;
+}
+
+#back_to_top{
+    font-family: 'Courier New', monospace;
+    color:white;
+} /* end of footer items */
