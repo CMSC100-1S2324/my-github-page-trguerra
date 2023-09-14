@@ -37,7 +37,7 @@ header{
 }
 
 #header_name{
-    font-family: 'CourierNew', monospace;
+    font-family: 'Lucida Sans', monospace;
     font-size: 26px;
     margin: 0px;
     color:white;
@@ -70,6 +70,34 @@ header{
 
 
 
+/* featured photo section */
+#featured{
+    display: flex;
+    flex-direction: column;
+    margin: 15px;
+    align-items: center;
+    padding: 20px;
+    gap: 20px 0px;
+
+    background-color:rgba(55, 31, 41, 0.793);
+}
+
+#featured_header{
+    font-family: 'Lucida Sans', monospace;
+    font-size: 20px;
+    font-weight: lighter;
+    color:white;
+    letter-spacing: 10px;
+}
+
+.featured_photo{
+    max-width: 600px;
+    border-style: solid;
+    border-width: 1px;
+    filter:drop-shadow(0 0 0.75rem rgba(55, 31, 41, 0.793));
+}
+
+
 /* projects */
 #project_section{
     display: flex;
@@ -87,7 +115,7 @@ header{
 }
 
 #project_header{
-    font-family: 'CourierNew', monospace;
+    font-family: 'Lucida Sans', monospace;
     color:rgb(60, 12, 32);
     font-weight: bold;
     font-size: 40px;
