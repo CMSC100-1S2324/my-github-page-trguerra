@@ -96,6 +96,7 @@ header{
 
 #project_list{
     display: flex;
+    flex-wrap: wrap;
     gap: 0px 15px;
     justify-content: center;
     padding: 15px;
@@ -128,6 +129,7 @@ header{
 /* skills items */
 .sk_ab_section{
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     padding: 15px;
 }
