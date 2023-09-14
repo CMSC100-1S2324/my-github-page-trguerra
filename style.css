@@ -11,6 +11,8 @@ html{ /*this block modifies the background.*/
     background-size: 450px;
 }
 
+
+
 /*header & header items styles*/
 header{
     margin: 0px;
@@ -23,7 +25,7 @@ header{
     background-color:rgba(55, 31, 41, 0.793);
 }
 
-#headerlogo{
+#header_logo{
     width: 70px;
     height: 70px;
     border-style: solid;
@@ -42,14 +44,12 @@ header{
 } /* end of header items */
 
 
+
 /* navigation bar and items */
-#navigationbar{
+#navigation_bar{
     display: flex;
     gap: 0px 40px;
-    /* padding: 10px; */
     justify-content: center;
-    margin-left: auto;
-    margin-right: auto;
     background-color:rgba(60, 21, 37, 0.923);
 }
 
@@ -58,8 +58,8 @@ header{
    font-size: 15px;
    text-decoration: none;
    color:white;
-   width: auto;
-   text-wrap: nowrap;
+   /* width: auto; */
+   /* text-wrap: nowrap; */
    padding: 12px;
 }
 
@@ -68,3 +68,31 @@ header{
 } /* end of navigation bar items */
 
 
+
+/* footer items */
+footer{
+    display: flex;
+    gap: 0px 20px;
+    align-items: center;
+    padding: 10px;
+    
+    background-color:rgba(60, 21, 37, 0.923);
+}
+
+#footer_logo{
+    border-style: solid;
+    border-width: 1px;
+    width: 100px;
+    height: 100px;
+}
+
+.footer_contents{
+    font-family: 'Courier New', monospace;
+    font-size: 12px;
+    color:white;
+}
+
+#back_to_top{
+    font-family: 'Courier New', monospace;
+    color:white;
+}
